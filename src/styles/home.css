@@ -1,5 +1,7 @@
 #home {
     display: flex;
+    justify-content: center;
+    align-items: center;
     height: 750px;
     background-image: url('../img/banner.png');
     background-position: center;
@@ -15,17 +17,17 @@
     flex-direction: column;
     gap: 28px;
     margin-top: 5%;
-    position: relative;
     background-color: #ffe8b4;
     opacity: 0.9;
-    border-radius: 40% 30% 10% 20%;
-    padding: 10px;
+    border-radius: 12px;
+    padding: 40px;
 }
 
 #cta .title {
     font-size: 3.5rem;
     font-weight: 600;
     color: #1d1d1d;
+    text-align: center;
 }
 
 #cta .title span {
@@ -35,6 +37,7 @@
 #cta .description {
     font-size: 1.2rem;
     color: #1d1d1d;
+    text-align: center;
 }
 
 #cta_buttons {
@@ -58,20 +61,24 @@
     border-radius: 12px;
 }
 
-#banner {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 28px 8%;
-    width: 50%;
-}
+@media screen and (max-width: 768px) {
+    #cta {
+        width: 100%;
+    }
 
-. {
-    background-color: #ffe8b4;
-    width: 50%;
-    height: 100%;
-    position: absolute;
-    border-radius: 40% 30% 0% 20%;
-    top: 0;
-    left: 0;
+    #cta .title {
+        font-size: 2.5rem;
+    }
+
+    #cta .description {
+        font-size: 1rem;
+    }
+
+    #cta_buttons {
+        flex-direction: column;
+    }
+
+    #phone_button {
+        padding: 8px 12px;
+    }
 }
