@@ -26,17 +26,17 @@
 #cta .title {
     font-size: 3.5rem;
     font-weight: 600;
-    color: #1d1d1d;
+    color: var(--secondary-color);
     text-align: center;
 }
 
 #cta .title span {
-    color: #e9a209;
+    color: var(--primary-color);
 }
 
 #cta .description {
     font-size: 1.2rem;
-    color: #1d1d1d;
+    color: var(--secondary-color);
     text-align: center;
 }
 
@@ -47,7 +47,7 @@
 
 #cta_buttons a {
     text-decoration: none;
-    color: #1d1d1d;
+    color: var(--secondary-color);
 }
 
 #phone_button {
