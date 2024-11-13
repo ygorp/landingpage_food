@@ -1,3 +1,10 @@
+@import url('header.css');
+@import url('home.css');
+@import url('menu.css');
+@import url('testimonials.css');
+@import url('footer.css');
+
+
 * {
     margin: 0;
     padding: 0;
